@@ -25,7 +25,7 @@
 	<p>&nbsp;</p>	
 </form>
 <?php 
-$con = mysqli_connect("mysql.serversfree.com","u685088637_admoo","NMS2SL46spvqYJ8","u685088637_mytes");
+$con = mysqli_connect("yourMSQL-host","yourMSQL-user","yourMSQL-password","yourMSQL-database");
 
 if(isset($_POST['superman'])){
 	
